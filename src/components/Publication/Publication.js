@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import s from '../Reader/Reader.module.css';
+import s from './Publication.module.css';
 
 const Publication = ({ title, text, index }) => (
   <article className={s.publication}>

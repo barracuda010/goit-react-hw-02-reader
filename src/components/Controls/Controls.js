@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import s from '../Reader/Reader.module.css';
+import s from './Controls.module.css';
 
 const Controls = ({ back, forward, index, stroke }) => (
   <section className={s.controls}>
